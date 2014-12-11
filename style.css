@@ -1,0 +1,233 @@
+/*
+Theme Name: LabHacker
+Theme URI: http://laboratoriohacker.org/
+Author: Samuel Moraes
+Author URI: http://samuelmoraes.com/
+Description: Tema desenvolvido para o laboratoriohacker.org
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.row {
+  margin:0 !important;
+}
+
+header.row {
+  background:#303538;
+  padding:30px;
+}
+
+header.row .col-sm-8 img{
+  max-width:100%;
+  height:auto;
+}
+
+@media (min-width: 970px){
+  header.row .col-sm-8 img{
+    width:40%;
+  }
+}
+
+@media (max-width: 970px){
+  header.row .col-sm-8 img {
+    width:50%;
+  }
+}
+
+@media (max-width: 768px) {
+  header.row .col-sm-8 img{
+    width:70%;
+  }
+  header.row .col-sm-8 {
+    text-align: center;
+  }
+}
+
+header.row .col-sm-4{
+  text-align: center;
+}
+
+.label-danger{
+  background-color:#CC0000;
+}
+.navbartopo {
+  margin-bottom: 0;
+}
+
+.carousel-caption h3 span, .carousel-caption p span {
+  background:rgba(0,0,0,0.7);
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.carousel-caption h3 span {
+  font-size:2em;
+  text-transform: uppercase;
+}
+
+.carousel-caption p span {
+  font-size:1.4em;
+}
+
+.row.main .page-header{
+  margin-top:0;
+  margin-bottom:5px;
+  padding:0;
+  text-align: center;
+}
+
+.main .col-md-4 p {
+  font-family: 'Open Sans';
+  text-align: center;
+  margin-top:10px;
+}
+
+.participe .btn {
+  width:100%;
+  margin-bottom:10px;
+  border-right:5px solid #090909;
+}
+
+.participe .btn i {
+  font-size:1.2em;
+  float:left;
+}
+
+.participe .btn:hover {
+  border-right:5px solid #d40000;
+}
+
+.noshow {
+  overflow:hidden;
+}
+
+.noshow img {
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+.thumbhome {
+  width:250px;
+  float:left;
+  margin-right:20px;
+  max-height:200px;
+}
+
+a.readmore {
+  float:right;
+}
+
+footer.footer {
+  background:#1a1a1a;
+  padding:10px;
+  color:#fff;
+  border-top:5px solid #0B638D;
+  margin-top:20px;
+}
+
+@media (max-width: 513px){
+  #slider .item img{
+    min-height:20px !important;
+    max-width:1000px !important;
+    width:auto !important;
+  }
+}
+
+@media (min-width: 513px){
+  #slider .item img{
+    min-height:0 !important;
+    max-width:100% !important;
+    width:100% !important;
+  }
+}
+
+.post .post-header h2{
+  margin-top:0;
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.post .post-header img {
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+.posthumbindex {
+  height:350px;
+}
+
+.post .post-header h2{
+  background:#1a1a1a;
+  padding:10px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.post .post-header h2 a{
+  color:#fff;
+}
+
+.post-content p {
+  padding-top:3px;
+  padding-bottom: 3px;
+  text-indent: 1em;
+}
+
+.post-footer > div {
+  display:inline;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.post-footer {
+  background:#fff;
+  padding:10px;
+  margin-left:-19px;
+  margin-right:-19px;
+  margin-bottom: -19px;
+  line-height: 2em;
+  text-align:center;
+}
+
+.readmorepost {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.post .page-header {
+  margin-top:0;
+  text-align:center;
+}
+
+.post .page-header a{
+  color:#1a1a1a;
+}
+
+.postthumbnail img{
+  max-width:100%;
+  width:80%;
+  border:1px solid #ccc;
+  padding:8px;
+  box-shadow:0 0 1px #ccc;
+}
+.postthumbnail {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page .page-header h2{
+  font-size:4em;
+}
+.page .post-content {
+  font-size:1.3em;
+}
+.jumbotron {
+  text-align: center;
+  padding:20px;
+}
