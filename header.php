@@ -21,27 +21,7 @@
     <header class="row">
 		<div class="col-sm-8"><img src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>"></div>
 		<div class="col-sm-4">
-			<h3>
-			
-			<?php
-			
-				if ($statushackerspace == true) {
-				
-					echo '<span class="label label-success">Hackerspace Aberto</span>';
-
-				} else if ($statushackerspace == false) {
-					
-					echo '<span class="label label-danger">Hackerspace Fechado</span>';
-					
-				} else {
-				
-					echo '<span class="label label-default">Status Desconhecido</span>';
-				
-				}
-
-			?>
-			
-			</h3>
+			<h3><span class="label label-default">Carregando Status...</span></h3>
 		</div>
 	</header>
     

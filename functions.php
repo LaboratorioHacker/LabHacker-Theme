@@ -7,12 +7,6 @@
   //Thumbs
   
   add_theme_support( 'post-thumbnails' );
-
-  //Status do Hackerspace
-
-  $json_string = file_get_contents("http://status.laboratoriohacker.org/status/json");
-  $parsed_json = json_decode($json_string);
-  $statushackerspace = $parsed_json->{'state'}->{'open'};
   	
   //Custom Header
   
